@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+header{
+    background-color: #222222;
+    color: white;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.logo-nav{
+    display: flex;
+    width: 300px;
+    height: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.delivery{
+    display: flex;
+    background-image: url('../img/delivery.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 45%;
+    /* width: 490px; */
+}
+
+.delivery p{
+    position: relative;
+    color: red;
+    font-weight: bold;
+    left: 40px;
+    font-size: 24px;
+}
+
+.delivery a{
+    color: white;
+}
+
+.podio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 500px;
+    width: 45%;
+    background-color: white;
+}
+
+.podio h2{
+    color: red;
+    text-align: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    margin-top: 70px;
+    display: flex;
+    background-color: #222222;
+    color: white;
+    justify-content: space-between;
+}
+
+#nav-footer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#logo-footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 120px;
+}
+
+footer div img{
+    margin-top: 30px;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+}
